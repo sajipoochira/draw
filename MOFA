@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T11:13:13.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="M-2UtYKB5_rPgM3hTzHd" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T11:29:46.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="CKthCAS5aM0h6xV_EWND" version="20.5.1" type="github">
   <diagram id="qk0PtgjSP0Wbn10IkSaA" name="Page-1">
-    <mxGraphModel dx="1865" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2424" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,17 +212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6yR9xqgPi-NT4rtoviHO-70" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="-90" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6yR9xqgPi-NT4rtoviHO-72" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;" edge="1" parent="1" source="6yR9xqgPi-NT4rtoviHO-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-50" y="30" as="sourcePoint" />
-            <mxPoint y="-20" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="90" y="30" />
-              <mxPoint x="-50" y="-20" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="-300" y="-130" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="6yR9xqgPi-NT4rtoviHO-73" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;entryX=0.179;entryY=0.952;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.929;exitY=0.443;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6yR9xqgPi-NT4rtoviHO-5" target="6yR9xqgPi-NT4rtoviHO-120">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -397,6 +387,19 @@
         </mxCell>
         <mxCell id="6yR9xqgPi-NT4rtoviHO-131" value="DR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="184" y="-340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6yR9xqgPi-NT4rtoviHO-132" value="DDOS" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/DDoS_Protection_Plans.svg;" vertex="1" parent="1">
+          <mxGeometry x="123" y="494.14" width="46" height="55.86" as="geometry" />
+        </mxCell>
+        <mxCell id="6yR9xqgPi-NT4rtoviHO-133" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;exitX=0.651;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6yR9xqgPi-NT4rtoviHO-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="120" as="sourcePoint" />
+            <mxPoint x="30" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-130" y="100" />
+              <mxPoint x="20" y="20" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
