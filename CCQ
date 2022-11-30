@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T07:36:15.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="ptq_7Nik5JCpeu_-2mRY" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T07:53:04.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="yhVEidkoNHE3FsQGQx4O" type="github">
   <diagram id="izJewEdu2PklBlmOdkE6" name="Page-1">
     <mxGraphModel dx="1865" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,10 @@
           <mxGeometry x="-620" y="200" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-2" value="&lt;a style=&quot;font-size: 13px; font-weight: 400; text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233); outline: none !important;&quot; href=&quot;https://portal.azure.com/#@ccq.edu.qa/resource/subscriptions/c7a5ce64-ce34-48fb-9cde-af7f95f4d9d9/resourceGroups/rg-efw-hub-qc-001/providers/Microsoft.Network/routeTables/rt-efw-untrust&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;rt-efw-trust&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="200" width="200" height="200" as="geometry" />
+          <mxGeometry x="-190" y="198" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-38" value="&lt;div&gt;snet-ifw-ha&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.176/28&lt;/div&gt;&lt;div&gt;snet-efw-ha&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.48/28&lt;/div&gt;&lt;div&gt;snet-shared&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.245.0/26&lt;/div&gt;&lt;div&gt;snet-keyvault-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.245.64/27&lt;/div&gt;&lt;div&gt;snet-mgmt1-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.224/28&lt;/div&gt;&lt;div&gt;snet-network-mgmt&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.0/28&lt;/div&gt;&lt;div&gt;snet-mgmt0-02&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.208/28&lt;/div&gt;&lt;div&gt;snet-mgmt0-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.192/28&lt;/div&gt;&lt;div&gt;snet-ifw-trust&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.160/28&lt;/div&gt;&lt;div&gt;snet-stgpvl-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.240/28&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="kmJylxHlKbW-kQJlTBXE-2">
+          <mxGeometry x="-10" y="32" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-3" value="&lt;a style=&quot;font-size: 13px; font-weight: 400; text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233); outline: none !important;&quot; href=&quot;https://portal.azure.com/#@ccq.edu.qa/resource/subscriptions/c7a5ce64-ce34-48fb-9cde-af7f95f4d9d9/resourceGroups/rg-waf-hub-qc-001/providers/Microsoft.Network/routeTables/rt-waf-untrust&quot; tabindex=&quot;0&quot; class=&quot;fxc-gcflink-link&quot;&gt;rt-waf-untrust&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="200" height="200" as="geometry" />
@@ -23,14 +26,17 @@
           <mxGeometry x="65.5" y="106" width="69" height="64" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-6" value="&lt;a class=&quot;fxc-gcflink-link&quot; tabindex=&quot;0&quot; href=&quot;https://portal.azure.com/#@ccq.edu.qa/resource/subscriptions/c7a5ce64-ce34-48fb-9cde-af7f95f4d9d9/resourceGroups/rg-waf-hub-qc-001/providers/Microsoft.Network/routeTables/rt-waf-untrust&quot; style=&quot;font-size: 13px; font-weight: 400; text-decoration-line: none; vertical-align: middle; padding: 1px; cursor: pointer; font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(237, 235, 233); outline: none !important;&quot;&gt;rt-waf-trust&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="429" y="60" width="200" height="200" as="geometry" />
+          <mxGeometry x="429" y="60" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-39" value="&lt;div&gt;snet-ifw-ha&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.176/28&lt;/div&gt;&lt;div&gt;snet-efw-ha&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.48/28&lt;/div&gt;&lt;div&gt;snet-shared&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.245.0/26&lt;/div&gt;&lt;div&gt;snet-keyvault-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.245.64/27&lt;/div&gt;&lt;div&gt;snet-mgmt1-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.224/28&lt;/div&gt;&lt;div&gt;snet-network-mgmt&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.0/28&lt;/div&gt;&lt;div&gt;snet-mgmt0-02&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.208/28&lt;/div&gt;&lt;div&gt;snet-mgmt0-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.192/28&lt;/div&gt;&lt;div&gt;snet-ifw-trust&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.160/28&lt;/div&gt;&lt;div&gt;snet-stgpvl-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.240/28&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="kmJylxHlKbW-kQJlTBXE-6">
+          <mxGeometry x="1" y="30.5" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Availability_Sets.svg;" vertex="1" parent="1">
           <mxGeometry x="-350" y="266" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kmJylxHlKbW-kQJlTBXE-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-30" y="320" as="sourcePoint" />
+            <mxPoint x="10" y="330" as="sourcePoint" />
             <mxPoint x="310" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -70,7 +76,7 @@
         <mxCell id="kmJylxHlKbW-kQJlTBXE-21" value="Azure LB for perimeter firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;" vertex="1" parent="1">
           <mxGeometry x="-260" y="280.5" width="39" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="kmJylxHlKbW-kQJlTBXE-22" value="Azure LB for perimeter firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;" vertex="1" parent="1">
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-22" value="Azure LB for perimeter firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-260" y="280.5" width="39" height="39" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-23" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Availability_Sets.svg;" vertex="1" parent="1">
@@ -95,7 +101,7 @@
           <mxGeometry x="-550" y="410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-32" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:189pt&quot; width=&quot;251&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:101pt&quot; width=&quot;134&quot; height=&quot;20&quot;&gt;snet-efw-trust&lt;/td&gt;&lt;br/&gt;  &lt;td style=&quot;width:88pt&quot; width=&quot;117&quot;&gt;172.27.244.32/28&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="420" width="60" height="30" as="geometry" />
+          <mxGeometry x="-150" y="410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kmJylxHlKbW-kQJlTBXE-33" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:189pt&quot; width=&quot;251&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:101pt&quot; width=&quot;134&quot; height=&quot;20&quot;&gt;snet-waf-untrust&lt;/td&gt;&lt;br/&gt;  &lt;td style=&quot;width:88pt&quot; width=&quot;117&quot;&gt;172.27.244.64/26&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="266" width="60" height="30" as="geometry" />
