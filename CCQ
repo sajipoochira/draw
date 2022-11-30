@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T07:14:17.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="c-Nr_mfSVYwWfwNo0uGy" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T07:36:15.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="ptq_7Nik5JCpeu_-2mRY" type="github">
   <diagram id="izJewEdu2PklBlmOdkE6" name="Page-1">
     <mxGraphModel dx="1865" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,27 @@
             <mxPoint x="80" y="180" as="sourcePoint" />
             <mxPoint x="20" y="350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-29" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:189pt&quot; width=&quot;251&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:101pt&quot; width=&quot;134&quot; height=&quot;20&quot;&gt;snet-efw-untrust&lt;/td&gt;&lt;br/&gt;  &lt;td style=&quot;width:88pt&quot; width=&quot;117&quot;&gt;172.27.244.16/28&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-32" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:189pt&quot; width=&quot;251&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:101pt&quot; width=&quot;134&quot; height=&quot;20&quot;&gt;snet-efw-trust&lt;/td&gt;&lt;br/&gt;  &lt;td style=&quot;width:88pt&quot; width=&quot;117&quot;&gt;172.27.244.32/28&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-33" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:189pt&quot; width=&quot;251&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:101pt&quot; width=&quot;134&quot; height=&quot;20&quot;&gt;snet-waf-untrust&lt;/td&gt;&lt;br/&gt;  &lt;td style=&quot;width:88pt&quot; width=&quot;117&quot;&gt;172.27.244.64/26&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="266" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-34" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:189pt&quot; width=&quot;251&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:101pt&quot; width=&quot;134&quot; height=&quot;20&quot;&gt;snet-waf-trust&lt;/td&gt;&lt;br/&gt;  &lt;td style=&quot;width:88pt&quot; width=&quot;117&quot;&gt;172.27.244.128/28&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="499" y="250.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-35" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-36" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:189pt&quot; width=&quot;251&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:101pt&quot; width=&quot;134&quot; height=&quot;20&quot;&gt;snet-ifw-untrust&lt;/td&gt;&lt;br/&gt;  &lt;td style=&quot;width:88pt&quot; width=&quot;117&quot;&gt;172.27.244.144/28&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kmJylxHlKbW-kQJlTBXE-37" value="&lt;div&gt;snet-ifw-ha&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.176/28&lt;/div&gt;&lt;div&gt;snet-efw-ha&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.48/28&lt;/div&gt;&lt;div&gt;snet-shared&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.245.0/26&lt;/div&gt;&lt;div&gt;snet-keyvault-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.245.64/27&lt;/div&gt;&lt;div&gt;snet-mgmt1-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.224/28&lt;/div&gt;&lt;div&gt;snet-network-mgmt&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.0/28&lt;/div&gt;&lt;div&gt;snet-mgmt0-02&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.208/28&lt;/div&gt;&lt;div&gt;snet-mgmt0-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.192/28&lt;/div&gt;&lt;div&gt;snet-ifw-trust&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.160/28&lt;/div&gt;&lt;div&gt;snet-stgpvl-01&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;172.27.244.240/28&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="525" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
