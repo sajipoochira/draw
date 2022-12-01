@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T14:00:37.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="DvuBChRye666pDWFMWXz" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T14:08:19.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="Dt5ab32LDirehsgk8uQZ" version="20.6.0" type="github">
   <diagram id="i_cl4AShtwmAQDiyPVz0" name="Page-1">
-    <mxGraphModel dx="1543" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,13 @@
           <mxGeometry x="387" y="-49" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="_NbgPAOYJ38VF1XvK5KL-35" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f9f7ed;" vertex="1" parent="1">
-          <mxGeometry x="680" y="200" width="180" height="270" as="geometry" />
+          <mxGeometry x="700" y="200" width="160" height="240" as="geometry" />
         </mxCell>
         <mxCell id="_NbgPAOYJ38VF1XvK5KL-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="90" width="280" height="310" as="geometry" />
+          <mxGeometry x="70" y="90" width="240" height="270" as="geometry" />
         </mxCell>
         <mxCell id="_NbgPAOYJ38VF1XvK5KL-31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-339" y="224" width="240" height="365" as="geometry" />
+          <mxGeometry x="-339" y="270" width="240" height="260" as="geometry" />
         </mxCell>
         <mxCell id="dSrJtow9eJ3Rqq7BlYT7-24" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;" parent="1" vertex="1">
           <mxGeometry x="30" y="209" width="42" height="42" as="geometry" />
@@ -411,10 +411,10 @@
           <mxGeometry x="-296" y="524" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_NbgPAOYJ38VF1XvK5KL-34" value="Perimeter Fortigate FW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="60" y="405" width="240" height="40" as="geometry" />
+          <mxGeometry x="71" y="367" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_NbgPAOYJ38VF1XvK5KL-36" value="SonicWall FW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="680" y="465" width="160" height="40" as="geometry" />
+          <mxGeometry x="700" y="448" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_NbgPAOYJ38VF1XvK5KL-37" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#006600;exitX=1;exitY=0.682;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="dSrJtow9eJ3Rqq7BlYT7-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -428,7 +428,7 @@
             <mxPoint x="620" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_NbgPAOYJ38VF1XvK5KL-42" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#CC0000;entryX=-0.056;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" target="_NbgPAOYJ38VF1XvK5KL-35">
+        <mxCell id="_NbgPAOYJ38VF1XvK5KL-42" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#CC0000;entryX=0.429;entryY=0.952;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" target="dSrJtow9eJ3Rqq7BlYT7-101">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="550" as="sourcePoint" />
             <mxPoint x="400" y="580" as="targetPoint" />
@@ -467,7 +467,7 @@
           <mxGeometry x="469" y="-96" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_NbgPAOYJ38VF1XvK5KL-53" value="S2S VPN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-555" y="445" width="110" height="40" as="geometry" />
+          <mxGeometry x="-592" y="340" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
