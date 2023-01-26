@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T08:23:25.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="zI1FYdfdmt2fb21zR02J" type="github"><diagram id="ObRwv7qinBGwB-lXjFKB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-26T06:37:17.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="Twd5jmQg3wpkuqY7YMdb" version="20.8.10" type="github">
+  <diagram id="ObRwv7qinBGwB-lXjFKB" name="Page-1">
+    <mxGraphModel dx="794" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-1" value="efw-untrust" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="64" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-2" value="efw-trust" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="64" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-3" value="WAF-Untrust" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="64" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-4" value="waf-trust" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="64" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-5" value="ifw-untrust" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="64" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-6" value="ifw-trust" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" vertex="1" parent="1">
+          <mxGeometry x="760" y="370" width="64" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00CC00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="550" as="sourcePoint" />
+            <mxPoint x="670" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="580" as="sourcePoint" />
+            <mxPoint x="350" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Wq0b2rfVCzLfVkiEhon-9" value="rt-spoke" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" vertex="1" parent="1">
+          <mxGeometry x="770" y="540" width="61.94" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
