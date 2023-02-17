@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T12:40:06.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="OzgNLGcvtTnLwS8ojfu8" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T12:40:29.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="Ez0TqxJbmACP3kfQFg72" version="20.8.20" type="github">
   <diagram id="i_cl4AShtwmAQDiyPVz0" name="Page-1">
     <mxGraphModel dx="2474" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -45,9 +45,6 @@
         </mxCell>
         <mxCell id="zKjUSq3xo2_UQNt89BO3-179" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Route_Tables.svg;" parent="1" vertex="1">
           <mxGeometry x="601.56" y="-442.82647903948384" width="20" height="19.38" as="geometry" />
-        </mxCell>
-        <mxCell id="zKjUSq3xo2_UQNt89BO3-180" value="Http/Https" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontStyle=1;horizontal=1;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="777.049083950279" y="-550" as="geometry" />
         </mxCell>
         <mxCell id="zKjUSq3xo2_UQNt89BO3-155" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="348.05" y="-788.1764790394839" width="240" height="120" as="geometry" />
