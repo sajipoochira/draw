@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T05:51:24.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="V9vrQcPaVM-R3FCaUeu6" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T05:56:29.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="CHgVuoJUGZHpRtkYxK49" version="21.1.1" type="github">
   <diagram name="Page-1" id="FSTKXdU1gXnJ0ney9R_K">
     <mxGraphModel dx="873" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="2PRohvglDajW7jUMwY5i-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" parent="1" vertex="1">
           <mxGeometry x="361" y="210" width="67" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2PRohvglDajW7jUMwY5i-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="2PRohvglDajW7jUMwY5i-3" edge="1">
+        <mxCell id="2PRohvglDajW7jUMwY5i-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" parent="1" source="2PRohvglDajW7jUMwY5i-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="420" as="targetPoint" />
             <Array as="points">
@@ -37,7 +37,7 @@
             <mxPoint x="407" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2PRohvglDajW7jUMwY5i-26" value="Forwarded to Azure DNS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2PRohvglDajW7jUMwY5i-14" vertex="1" connectable="0">
+        <mxCell id="2PRohvglDajW7jUMwY5i-26" value="Conditional forwarding will Forward to Azure DNS&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2PRohvglDajW7jUMwY5i-14" vertex="1" connectable="0">
           <mxGeometry x="-0.1815" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -85,7 +85,7 @@
         <mxCell id="2PRohvglDajW7jUMwY5i-17" value="Onprem DC" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
           <mxGeometry x="20" y="480" width="69" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="2PRohvglDajW7jUMwY5i-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;strokeWidth=2;" parent="1" target="2PRohvglDajW7jUMwY5i-1" edge="1">
+        <mxCell id="2PRohvglDajW7jUMwY5i-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" parent="1" target="2PRohvglDajW7jUMwY5i-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="200" as="sourcePoint" />
             <mxPoint x="459" y="31" as="targetPoint" />
@@ -104,6 +104,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="290" as="sourcePoint" />
             <mxPoint x="380" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kk7uU3gIu4s3Dg0E8_Nk-1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="210" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
